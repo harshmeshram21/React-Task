@@ -1,12 +1,15 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Count from "./components/Count";
-import ToDoList from "./components/ToDoList";
+import CountdownTmer from "./components/CountdownTmer";
+import ToDo from "./components/ToDo";
+
 function App() {
   return (
     <div className="App">
       <Count></Count>
-      <ToDoList />
+      {/* <ToDoList /> */}
+      <ToDo />
+      <CountdownTmer duration={1000 * 60 * 40} />
     </div>
   );
 }
