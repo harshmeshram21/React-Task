@@ -40,3 +40,79 @@ code {
   display: flex;
   justify-content: center;
 }
+
+.VoteBox {
+  height: 300px;
+  width: 500px;
+  background-color: burlywood;
+  padding-top: 30px;
+  border: 2px solid black;
+}
+
+.voteContainer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#bjpBtn {
+  width: 50px;
+  height: 50px;
+  background-image: url("https://i.pinimg.com/736x/71/eb/2c/71eb2cc75e9615acd590e8b8e3967707.jpg");
+  background-size: cover;
+  background-position: center;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#incBtn {
+  width: 50px;
+  height: 50px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6c/Indian_National_Congress_hand_logo.svg");
+  background-size: cover;
+  background-position: center;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#aapBtn {
+  width: 50px;
+  height: 50px;
+  background-image: url("https://goemkarponn.com/wp-content/uploads/2022/08/WhatsApp-Image-2022-06-30-at-12.53.58-PM.jpg");
+  background-size: cover;
+  background-position: center;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.voteBtn {
+  margin: 20px;
+}
+.btns {
+  margin-top: 20px;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.logoBtn {
+  margin-top: 50px;
+}
+
+.vmessage {
+  height: 1px;
+}
+.countBox {
+  height: 150px;
+  width: 500px;
+  background-color: pink;
+  border: 2px solid black;
+}
+.contContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}

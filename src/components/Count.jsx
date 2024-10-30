@@ -10,15 +10,53 @@ function Count() {
   const reset = () => setCount(countData * 0);
 
   return (
-    <div>
-      <h1>Count: {countData}</h1>
-      <button style={{ marginRight: "20px" }} onClick={increment}>
-        Increment
-      </button>
-      <button onClick={decrement}>Decrement</button>
-      <button style={{ marginLeft: "20px" }} onClick={reset}>
-        Decrement
-      </button>
+    <div className="contContainer">
+      <div className="countBox">
+        <h1>Count: {countData}</h1>
+        <button
+          style={{
+            marginRight: "20px",
+            border: "none",
+            color: "#9B7EBD",
+            fontSize: "20px",
+            backgroundColor: "pink",
+            fontSize: "30px",
+            cursor: "pointer",
+          }}
+          onClick={increment}
+        >
+          <i class="fa-solid fa-plus"></i>
+        </button>
+        <button
+          style={{
+            marginRight: "20px",
+            border: "none",
+            color: "#9B7EBD",
+            fontSize: "20px",
+            backgroundColor: "pink",
+            fontSize: "30px",
+            cursor: "pointer",
+          }}
+          onClick={decrement}
+        >
+          <i class="fa-solid fa-minus"></i>
+        </button>
+        <button
+          style={{
+            marginRight: "20px",
+            border: "none",
+            color: "#9B7EBD",
+            fontSize: "20px",
+            backgroundColor: "pink",
+            fontSize: "30px",
+            cursor: "pointer",
+            // marginLeft: "10px",
+          }}
+          onClick={reset}
+        >
+          <i class="fa-solid fa-rotate-right"></i>
+        </button>
+      </div>
     </div>
   );
 }
